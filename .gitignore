@@ -26,4 +26,3 @@ public/ffmpeg
 *.sln
 *.sw?
 .ccp-backups
-package-lock.json
