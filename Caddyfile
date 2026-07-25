@@ -1,0 +1,7 @@
+:80 {
+	root * /srv
+	encode gzip zstd
+	# SPA fallback: unknown paths serve index.html, real files served directly.
+	try_files {path} /index.html
+	file_server
+}

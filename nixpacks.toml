@@ -1,2 +1,0 @@
-[phases.install]
-cmds = ["npm ci && npm install @rolldown/binding-linux-x64-gnu@1.1.5 --no-save --force --os=linux --cpu=x64"]
